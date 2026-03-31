@@ -1,0 +1,52 @@
+===== PERFORMANCE LOGS =====
+
+15:35:06 | ========== PIPELINE START ==========
+15:35:06 | [START] rag_retrieval
+15:35:06 | Duration: 0.050 sec
+15:35:06 | Memory Change: 2.64 MB
+15:35:06 | [END] rag_retrieval
+
+15:35:06 | [START] tokenization
+15:35:06 | Duration: 0.009 sec
+15:35:06 | Memory Change: 1.08 MB
+15:35:06 | [END] tokenization
+
+15:35:06 | Input Tokens: 740
+15:35:06 | [START] generation
+15:35:08 | Duration: 2.025 sec
+15:35:08 | Output Tokens: 17
+15:35:08 | Memory Change: 143.00 MB
+15:35:08 | [END] generation
+
+15:35:08 | CHAT MEMORY
+15:35:08 | Messages Stored: 2
+15:35:08 | Approx Memory: 0.24 KB
+
+15:35:08 | TOTAL RESPONSE TIME: 2.087 sec
+15:35:08 | ========== PIPELINE END ==========
+
+15:35:17 | ========== PIPELINE START ==========
+15:35:17 | [START] rag_retrieval
+15:35:17 | Duration: 0.043 sec
+15:35:17 | Memory Change: 0.14 MB
+15:35:17 | [END] rag_retrieval
+
+15:35:17 | [START] tokenization
+15:35:17 | Duration: 0.008 sec
+15:35:17 | Memory Change: 0.25 MB
+15:35:17 | [END] tokenization
+
+15:35:17 | Input Tokens: 1021
+15:35:17 | [START] generation
+15:35:21 | Duration: 3.320 sec
+15:35:21 | Output Tokens: 40
+15:35:21 | Memory Change: 147.84 MB
+15:35:21 | [END] generation
+
+15:35:21 | CHAT MEMORY
+15:35:21 | Messages Stored: 4
+15:35:21 | Approx Memory: 0.56 KB
+
+15:35:21 | TOTAL RESPONSE TIME: 3.373 sec
+15:35:21 | ========== PIPELINE END ==========
+
