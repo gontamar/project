@@ -1,0 +1,14 @@
+===== PERFORMANCE LOGS =====
+
+12:09:14 | ========== PIPELINE START ==========
+12:09:14 | [START] tokenization_optimization
+12:09:14 | [START] rag_retrieval
+12:09:14 | Duration: 0.053 sec
+12:09:14 | Memory Change: 2.88 MB
+12:09:14 | [END] rag_retrieval
+
+12:09:14 | Initialized new token history.
+12:09:14 | Duration: 0.060 sec
+12:09:14 | Memory Change: 3.56 MB
+12:09:14 | [END] tokenization_optimization
+

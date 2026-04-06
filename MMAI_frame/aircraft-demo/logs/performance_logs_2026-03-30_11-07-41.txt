@@ -1,0 +1,152 @@
+===== PERFORMANCE LOGS =====
+
+11:08:09 | ========== PIPELINE START ==========
+11:08:09 | [START] rag_retrieval
+11:08:09 | Duration: 0.052 sec
+11:08:09 | Memory Change: 1.19 MB
+11:08:09 | [END] rag_retrieval
+
+11:08:09 | [START] tokenization
+11:08:09 | Input Token Count: 658
+11:08:09 | Duration: 0.010 sec
+11:08:09 | Memory Change: 1.06 MB
+11:08:09 | [END] tokenization
+
+11:08:09 | [START] llm_generation
+11:08:11 | Output Token Count: 15
+11:08:11 | Duration: 1.845 sec
+11:08:11 | Memory Change: 149.64 MB
+11:08:11 | [END] llm_generation
+
+11:08:11 | CHAT MEMORY
+11:08:11 | Messages Stored: 2
+11:08:11 | Approx Memory: 0.20 KB
+
+11:08:11 | TOTAL RESPONSE TIME: 1.909 sec
+11:08:11 | ========== PIPELINE END ==========
+
+11:08:23 | ========== PIPELINE START ==========
+11:08:23 | [START] rag_retrieval
+11:08:23 | Duration: 0.048 sec
+11:08:23 | Memory Change: 0.12 MB
+11:08:23 | [END] rag_retrieval
+
+11:08:23 | [START] tokenization
+11:08:23 | Input Token Count: 955
+11:08:23 | Duration: 0.007 sec
+11:08:23 | Memory Change: 0.14 MB
+11:08:23 | [END] tokenization
+
+11:08:23 | [START] llm_generation
+11:08:29 | Output Token Count: 86
+11:08:29 | Duration: 5.502 sec
+11:08:29 | Memory Change: 301.34 MB
+11:08:29 | [END] llm_generation
+
+11:08:29 | CHAT MEMORY
+11:08:29 | Messages Stored: 4
+11:08:29 | Approx Memory: 0.80 KB
+
+11:08:29 | TOTAL RESPONSE TIME: 5.559 sec
+11:08:29 | ========== PIPELINE END ==========
+
+11:08:49 | ========== PIPELINE START ==========
+11:08:49 | [START] rag_retrieval
+11:08:49 | Duration: 0.057 sec
+11:08:49 | Memory Change: 0.16 MB
+11:08:49 | [END] rag_retrieval
+
+11:08:49 | [START] tokenization
+11:08:49 | Input Token Count: 1033
+11:08:49 | Duration: 0.007 sec
+11:08:49 | Memory Change: 0.16 MB
+11:08:49 | [END] tokenization
+
+11:08:49 | [START] llm_generation
+11:08:52 | Output Token Count: 32
+11:08:52 | Duration: 2.922 sec
+11:08:52 | Memory Change: 74.05 MB
+11:08:52 | [END] llm_generation
+
+11:08:52 | CHAT MEMORY
+11:08:52 | Messages Stored: 6
+11:08:52 | Approx Memory: 1.10 KB
+
+11:08:52 | TOTAL RESPONSE TIME: 2.989 sec
+11:08:52 | ========== PIPELINE END ==========
+
+11:09:08 | ========== PIPELINE START ==========
+11:09:08 | [START] rag_retrieval
+11:09:08 | Duration: 0.051 sec
+11:09:08 | Memory Change: 0.12 MB
+11:09:08 | [END] rag_retrieval
+
+11:09:08 | [START] tokenization
+11:09:08 | Input Token Count: 1116
+11:09:08 | Duration: 0.007 sec
+11:09:08 | Memory Change: 0.17 MB
+11:09:08 | [END] tokenization
+
+11:09:08 | [START] llm_generation
+11:09:23 | Output Token Count: 252
+11:09:23 | Duration: 14.623 sec
+11:09:23 | Memory Change: 850.11 MB
+11:09:23 | [END] llm_generation
+
+11:09:23 | CHAT MEMORY
+11:09:23 | Messages Stored: 8
+11:09:23 | Approx Memory: 2.34 KB
+
+11:09:23 | TOTAL RESPONSE TIME: 14.683 sec
+11:09:23 | ========== PIPELINE END ==========
+
+11:09:49 | ========== PIPELINE START ==========
+11:09:49 | [START] rag_retrieval
+11:09:49 | Duration: 0.045 sec
+11:09:49 | Memory Change: 0.03 MB
+11:09:49 | [END] rag_retrieval
+
+11:09:49 | [START] tokenization
+11:09:49 | Input Token Count: 1353
+11:09:49 | Duration: 0.008 sec
+11:09:49 | Memory Change: 0.09 MB
+11:09:49 | [END] tokenization
+
+11:09:49 | [START] llm_generation
+11:09:52 | Output Token Count: 24
+11:09:52 | Duration: 3.109 sec
+11:09:52 | Memory Change: 19.36 MB
+11:09:52 | [END] llm_generation
+
+11:09:52 | CHAT MEMORY
+11:09:52 | Messages Stored: 10
+11:09:52 | Approx Memory: 2.58 KB
+
+11:09:52 | TOTAL RESPONSE TIME: 3.164 sec
+11:09:52 | ========== PIPELINE END ==========
+
+11:09:58 | ========== PIPELINE START ==========
+11:09:58 | [START] rag_retrieval
+11:09:58 | Duration: 0.043 sec
+11:09:58 | Memory Change: 0.02 MB
+11:09:58 | [END] rag_retrieval
+
+11:09:58 | [START] tokenization
+11:09:58 | Input Token Count: 1421
+11:09:58 | Duration: 0.009 sec
+11:09:58 | Memory Change: 0.22 MB
+11:09:58 | [END] tokenization
+
+11:09:58 | [START] llm_generation
+11:10:12 | Output Token Count: 227
+11:10:12 | Duration: 14.723 sec
+11:10:12 | Memory Change: 730.23 MB
+11:10:12 | [END] llm_generation
+
+11:10:12 | CHAT MEMORY
+11:10:12 | Messages Stored: 12
+11:10:12 | Approx Memory: 3.69 KB
+
+11:10:12 | TOTAL RESPONSE TIME: 14.777 sec
+11:10:12 | ========== PIPELINE END ==========
+

@@ -1,0 +1,28 @@
+===== PERFORMANCE LOGS =====
+
+11:45:11 | ========== PIPELINE START ==========
+11:45:11 | [START] context_retrieval
+11:45:11 | [START] rag_retrieval
+11:45:11 | Duration: 0.046 sec
+11:45:11 | Memory Change: 0.55 MB
+11:45:11 | [END] rag_retrieval
+
+11:45:11 | Duration: 0.047 sec
+11:45:11 | Memory Change: 0.55 MB
+11:45:11 | [END] context_retrieval
+
+11:45:11 | [START] tokenization_and_cache_check
+11:45:11 | Using KV Cache: False
+11:45:11 | Duration: 0.006 sec
+11:45:11 | Memory Change: 0.72 MB
+11:45:11 | [END] tokenization_and_cache_check
+
+11:45:11 | [START] llm_generation
+11:45:38 | Duration: 27.170 sec
+11:45:38 | Memory Change: 1839.98 MB
+11:45:38 | [END] llm_generation
+
+11:45:39 | KV Cache updated for session.
+11:45:39 | TOTAL RESPONSE TIME: 28.248 sec
+11:45:39 | ========== PIPELINE END ==========
+

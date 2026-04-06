@@ -1,0 +1,29 @@
+===== PERFORMANCE LOGS =====
+
+11:49:49 | ========== PIPELINE START ==========
+11:49:49 | [START] tokenization_and_embedding
+11:49:49 | [START] rag_retrieval
+11:50:08 | ========== PIPELINE START ==========
+11:50:08 | [START] tokenization_and_embedding
+11:50:08 | [START] rag_retrieval
+11:50:08 | Duration: 0.047 sec
+11:50:08 | Memory Change: 2.84 MB
+11:50:08 | [END] rag_retrieval
+
+11:50:08 | Initialized new token history with context.
+11:50:08 | Duration: 0.069 sec
+11:50:08 | Memory Change: 33.77 MB
+11:50:08 | [END] tokenization_and_embedding
+
+11:50:08 | [START] llm_inference
+11:50:35 | Duration: 26.574 sec
+11:50:35 | Memory Change: 1743.67 MB
+11:50:35 | [END] llm_inference
+
+11:50:35 | CHAT MEMORY
+11:50:35 | Messages Stored: 3
+11:50:35 | Approx Memory: 2.22 KB
+
+11:50:35 | TOTAL RESPONSE TIME: 26.646 sec
+11:50:35 | ========== PIPELINE END ==========
+
