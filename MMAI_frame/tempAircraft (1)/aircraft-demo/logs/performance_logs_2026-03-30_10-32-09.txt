@@ -1,0 +1,8 @@
+===== PERFORMANCE LOGS =====
+
+10:32:50 | ========== PIPELINE START ==========
+10:32:50 | [START] rag_retrieval
+10:32:50 | Duration: 0.065 sec
+10:32:50 | Memory Change: 1.58 MB
+10:32:50 | [END] rag_retrieval
+
