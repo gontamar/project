@@ -13,7 +13,7 @@ rag_engine = RAGEngine()
  
 # Current analysis results stored in session memory
 session_results = {"brain": None, "chest": None}
-
+ 
 def reset_all_sessions():
     # 1. Clear Backend LangChain Memory
     cl.reset_clinical_memory()
@@ -61,7 +61,7 @@ def add_user_message(history, message):
  
 def bot_response(history):
     # Gradio passes the whole list of dicts. We want the last user message.
-    raw_input = history[-1]["content"] 
+    raw_input = history[-1]["content"]
     
     # 1. Route and clean the input string
     routes, clean_user_msg = cl.route_question(raw_input)
@@ -115,11 +115,12 @@ def bot_response(history):
     print(stats)
  
     # 3. Save clean strings to LangChain Memory
-    cl.memory.save_context({"input": clean_user_msg}, {"output": full_ai_response})
+    cl.store_interaction(clean_user_msg, full_ai_response)
+ 
     yield history
  
 # --- UI Layout ---
-
+ 
 custom_css = """
 #centered-title {
     text-align: center;
@@ -155,7 +156,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="MedAssist AI") as demo:
     ).then(
         bot_response, [chatbot], [chatbot]
     )
-
+ 
     reset_btn.click(
         fn=reset_all_sessions,
         inputs=[],
@@ -165,4 +166,3 @@ with gr.Blocks(theme=gr.themes.Soft(), title="MedAssist AI") as demo:
  
 if __name__ == "__main__":
     demo.queue().launch()
- 
